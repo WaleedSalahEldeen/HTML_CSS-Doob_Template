@@ -475,6 +475,11 @@ header .container i:hover + ul {
     height: 300px;
     left: -10%;
 }
+@media (min-width: 1200px) {
+.our-company .container .lamp-img img {
+    left: 0;
+}
+}
 @media (max-width: 991px) {
     .our-company .container .lamp-img img {
         left: 0;
