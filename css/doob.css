@@ -114,6 +114,7 @@ header .container ul li a {
     font-size: 17px;
     text-decoration: none;
     transition: 0.3s;
+    color: var(--mainText-color);
 }
 header .container ul li a.active ,
 header .container ul li a:hover ,
