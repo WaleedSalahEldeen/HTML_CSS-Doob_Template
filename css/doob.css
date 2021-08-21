@@ -32,29 +32,6 @@ ul {
     padding-right: 15px;
 }
 
-
-/* width */
-::-webkit-scrollbar {
-    width: 15px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #EEE;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-      border-radius: 10px;
-    background: var(--mainText-color);
-  }
-
-
 /*Small screen*/
 @media (min-width: 768px) {
     .container {
