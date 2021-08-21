@@ -336,6 +336,18 @@ header .container i:hover + ul {
 .landing .right-image img {
     height: 120vh;
 }
+@media (min-width: 1200px) {
+    .landing .right-image img {
+        height: 800px;
+        margin-top: 50px;
+    }  
+    .landing .right-image {
+        width: 50%;
+        background-image: url(../images/mobile-Shape.png);
+        background-size: cover;
+        height: 100vh;
+    }
+}
 @media (max-width: 1199px) {
     .landing .right-image img {
         height: 80vh;
