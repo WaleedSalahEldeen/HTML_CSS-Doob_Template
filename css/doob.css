@@ -596,6 +596,10 @@ header .container i:hover + ul {
     width: 370px;
     transition: 0.5s;
 }
+@media (max-width: 767px) {
+    height: auto;
+    width: 95%;
+}
 .Portfolio .content img:hover {
     -webkit-transform: scale(1.05)  rotate(1deg);
     -moz-transform: scale(1.05)  rotate(1deg);
